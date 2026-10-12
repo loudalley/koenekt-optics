@@ -1,0 +1,6 @@
+av==19.0.1
+imageio-ffmpeg==0.6.0
+tkinterdnd2==0.6.4
+pillow==12.3.0
+cx_Freeze==8.6.4
+pytest==9.1.1

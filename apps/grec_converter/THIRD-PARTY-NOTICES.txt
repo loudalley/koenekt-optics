@@ -1,0 +1,22 @@
+Koenekt GREC Converter - third-party components
+===============================================
+
+This application bundles the following software. Each remains under its own
+licence; full licence texts are in this folder where the package supplied one.
+
+FFmpeg 7.1 (bin\ffmpeg.exe)
+  "essentials" build by gyan.dev, configured with --enable-gpl --enable-version3.
+  Licence: GNU General Public License v3 (includes libx264, libxvid, LAME).
+  Source code: https://ffmpeg.org/download.html and https://www.gyan.dev/ffmpeg/builds/
+  FFmpeg runs as a separate program; it is not linked into this application.
+  On request Koenekt will provide the corresponding source for the exact build
+  shipped.
+
+PyAV 19.0.1 - BSD 3-Clause. Its Windows wheel bundles FFmpeg shared libraries
+  under their own licences (see PyAV-* files).
+
+Python 3.14 - Python Software Foundation License (Python-LICENSE.txt).
+Tcl/Tk - BSD-style licence (bundled with Python).
+tkinterdnd2 / tkdnd - MIT / BSD-style (tkinterdnd2-* files).
+Pillow - MIT-CMU licence (Pillow-* files).
+imageio-ffmpeg 0.6.0 - BSD 2-Clause; used only to obtain the FFmpeg binary.

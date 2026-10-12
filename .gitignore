@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+apps/*/build/
+apps/*/dist/
+
+# Never commit customer footage, conversions or reports
+*.grec
+*.mp4
+*.avi
+Conversion-*.json
+*.egg-info/
