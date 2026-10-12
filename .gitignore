@@ -11,3 +11,6 @@ apps/*/dist/
 *.avi
 Conversion-*.json
 *.egg-info/
+
+# Licensed ONVIF product: its own PRIVATE repo, never part of this one
+apps/onvif_screens/

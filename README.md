@@ -7,7 +7,7 @@ Koenekt video tools. One folder, shared codec layer, separate products.
 | `shared/koenekt_codecs/` | GREC parser + FFmpeg pipeline, shared by all apps | MIT |
 | `apps/grec_converter/` | **Koenekt GREC Converter**: Windows app, GREC → MP4 / AVI | MIT (for now) |
 | `brand/` | Logo and icon, copied from Koenekt Reporter | Koenekt |
-| *(planned)* ONVIF screen recorder | Licensed product. Keep it in a **separate private repo** that depends on `koenekt_codecs`, so it never lands in this public one. | proprietary |
+| `apps/onvif_screens/` | Koenekt ONVIF Screens (licensed). A **separate private repo** nested here and git-ignored by this one; not public. | proprietary |
 
 ## GREC Converter
 
