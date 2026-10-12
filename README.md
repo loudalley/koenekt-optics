@@ -16,7 +16,7 @@ Drop folders or `.grec` files onto the window, tick the ones you want (or *Selec
 - Originals are only read. Existing outputs are never overwritten.
 - If one file fails, the batch carries on. Cancel cleans up the file that is in progress.
 - **MP4** (H.264/AAC) keeps the recording's variable frame timing.
-- **AVI** (Xvid/MP3) is constant 25 fps, for older players. Files are about twice the size.
+- **AVI** (Xvid-compatible MPEG-4 + MP3) is constant 25 fps, for older players. Files are about twice the size.
 - Every output file is fully decoded and checked before it gets its final name.
 - If a recording has no end index or ends mid-packet, it is converted up to that point and flagged with a warning.
 - Settings, logs and JSON reports are saved to `%LOCALAPPDATA%\Koenekt\GREC Converter`.

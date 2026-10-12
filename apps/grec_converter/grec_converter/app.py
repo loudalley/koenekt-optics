@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 CHECKED, UNCHECKED = "\u2611", "\u2610"
 FORMAT_HINTS = {
     "mp4": "Recommended. Keeps the recording's original frame timing; plays almost everywhere.",
-    "avi": "For older players and editors. Constant 25 fps; files are roughly twice the size.",
+    "avi": "For older players and editors (Xvid-compatible). Constant 25 fps; files are roughly twice the size.",
 }
 STATUS_TAGS = {"converted": "ok", "skipped": "muted", "failed": "bad", "cancelled": "muted"}
 
