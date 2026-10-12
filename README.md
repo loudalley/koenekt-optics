@@ -4,8 +4,8 @@ Koenekt video tools. One folder, shared codec layer, separate products.
 
 | Path | What | Licence |
 |---|---|---|
-| `shared/koenekt_codecs/` | GREC parser + FFmpeg pipeline, shared by all apps | open |
-| `apps/grec_converter/` | **Koenekt GREC Converter**: Windows app, GREC → MP4 / AVI | open (for now) |
+| `shared/koenekt_codecs/` | GREC parser + FFmpeg pipeline, shared by all apps | MIT |
+| `apps/grec_converter/` | **Koenekt GREC Converter**: Windows app, GREC → MP4 / AVI | MIT (for now) |
 | `brand/` | Logo and icon, copied from Koenekt Reporter | Koenekt |
 | *(planned)* ONVIF screen recorder | Licensed product. Keep it in a **separate private repo** that depends on `koenekt_codecs`, so it never lands in this public one. | proprietary |
 
@@ -44,6 +44,8 @@ Scripted check of a build: `GrecConverter.exe --convert FILE --out DIR --format 
 
 The parser supports the SureCam/CMSV6 variant seen so far: H.265 video and G.711 A-law audio at 8 kHz. See the docstring in `shared/koenekt_codecs/grec.py`. Unknown headers, markers or codecs are rejected with a message. Nothing is guessed.
 
-### Licensing note
+### Licensing
+
+The source code is [MIT](LICENSE). The Koenekt name, logo and icons in `brand/` are Koenekt trademarks and are **not** covered by the MIT licence. If you fork this, use your own branding.
 
 The bundled FFmpeg is a GPLv3 build (libx264, libxvid). It runs as a separate executable and is not linked. See `apps/grec_converter/THIRD-PARTY-NOTICES.txt`. Before the paid version, confirm GPL source-offer obligations for the shipped binary, or swap in an LGPL build plus a licensed H.264 encoder.
